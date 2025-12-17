@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>실무 UI 용어 툴박스</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- 화면 전환 효과 오버레이 -->
+<div id="page-transition"></div>
+
+<div class="container">
+    <header>
+        <!-- Original Code -->
+        <div style="display: flex; justify-content: center; margin-bottom: 16px;">
+            <a href="https://x.com/tozz_aaaa/status/2001210844940787877?s=20" target="_blank" class="source-link" id="credit-link" style="display: inline-flex; align-items: center; gap: 8px; padding: 8px 16px;">
+                <svg viewBox="0 0 24 24" aria-hidden="true" class="x-logo"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg>
+                <span>Original Code</span>
+                <span>@</span>
+                <span>tozz_aaaa</span>
+            </a>
+        </div>
+
+        <h1>Design 용어 툴박스</h1>
+        <p class="subtitle">실무 디자인 용어 사전 & CSS 코드 복사</p>
+
+        <input type="text" id="searchInput" class="search-box" placeholder="찾고 싶은 용어 검색 (예: GNB, 모달, 햄버거...)">
+
+        <div class="filter-container" id="filterContainer">
+        </div>
+    </header>
+
+    <div id="content-area" class="term-grid">
+    </div>
+</div>
+
+<footer class="footer">
+    <a href="https://github.com/JTech-CO" target="_blank" class="footer-link" id="footer-link">
+        © 2025 JTech CO. UIUX Toolbox
+    </a>
+</footer>
+
+<div id="toast">CSS 코드가 복사되었습니다! 🎉</div>
+
+<script src="script.js"></script>
+</body>
+</html>
