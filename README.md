@@ -1,6 +1,10 @@
-# UIUX Toolbox - 파일 구조
+# UIUX Toolbox - README
 
 이 프로젝트는 HTML, CSS, JavaScript로 분리되어 있으며, **로컬 서버 없이도 작동하는 자체 웹 프로그램**입니다.
+
+원본 코드는 𝕏 사용자 ``@tozz_aaaa``의 ``Design 용어집``입니다.
+
+**[UIUX-Toolbox 실행하기](<https://jtech-co.github.io/UIUX-Toolbox/index.html>)**
 
 ## 파일 구조
 
@@ -63,4 +67,4 @@ UIUX-Toolbox/
 ## 참고사항
 
 
-- 모든 용어 데이터는 `script.js`의 `terms` 배열에 포함되어 있습니다
+- 모든 용어 데이터는 `script.js`의 `terms` 배열에 포함되어 있습니다.
